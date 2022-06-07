@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Box } from '@mui/system';
 import { Card, CardActionArea, CardContent, CardMedia, Grid, Paper, styled } from '@mui/material';
-import { Typography } from '@mui/material';
-import { TextField } from '@mui/material';
+import { Typography, TextField } from '@mui/material';
 import { get } from '../../api/request';
 import { buscarJogos } from '../../api/games';
 import { Link, useNavigate } from 'react-router-dom';

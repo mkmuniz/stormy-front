@@ -2,8 +2,6 @@ import React from 'react';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import { Avatar, Grid, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
-import { Link } from 'react-router-dom';
-import GroupIcon from '@mui/icons-material/Group';
 
 export default function Footer() {
     return <>
