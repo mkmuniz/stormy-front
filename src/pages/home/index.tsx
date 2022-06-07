@@ -1,4 +1,3 @@
-import jwtDecode from 'jwt-decode';
 import React from 'react';
 import HomeContent from '../../components/contentHome';
 import Footer from '../../components/footer/index';

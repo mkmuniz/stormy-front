@@ -5,15 +5,13 @@ import Footer from '../../components/footer/index';
 import NavBar from '../../components/navbar/index';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import { useParams } from 'react-router';
-import { buscarUm, enviarComentario, enviarResposta } from '../../api/games';
+import { buscarUm, enviarComentario } from '../../api/games';
 import { Carregando } from '../carregando';
-import { style } from '@mui/system';
 export default function Game() {
   const [dataGames, setData] = useState<any>(null)
   const getToken: any = localStorage.getItem('token');
   const token: any = jwtDecode(getToken);
   const { id } = useParams()
-  const dadosJogo: any = [];
 
   useEffect(() => {
     async function fetchMyAPI() {
