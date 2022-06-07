@@ -21,7 +21,6 @@ export default function Footer() {
                         <ListItem>
                             <ListItemAvatar>
                                 <Avatar>
-                                    <GroupIcon />
                                 </Avatar>
                             </ListItemAvatar>
                             <ListItemText primary="Grupo de alunos da Mackenzie." />
